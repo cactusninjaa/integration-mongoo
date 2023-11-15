@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Mon Projet</title>
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header_pathrou"></div>
+        <img class="header__img" src="img/Header back.png" alt="magnifique header background">
+        <nav class="header__nav">
+            <a href="" class="header__nav__logo">
+                <img src="img/Logo.png" alt="notre magnifique logo">
+            </a>
+            <ul class="header__nav__ul">
+                <li class="header__nav__li header__nav__li-active">
+                    <a href="#">Acceuil</a>
+                </li>
+                <li class="header__nav__li">
+                    <a href="#">Qui-sommes-nous?</a>
+                </li>
+                <li class="header__nav__li">
+                    <a href="#">Menu</a>
+                </li>
+                <li class="header__nav__li">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="header__nav__li header__nav__li-button">
+                    <a  href="#">Commander</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__title">
+            <h1 class="header_h1">mongoo</h1>
+            <h2 class="header__h2 incline-text">c'est frais pour vous !</h2>
+        </div>
+        <div class="header__socials">
+            <svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5">
+                <path id="Icon_awesome-facebook-square" data-name="Icon awesome-facebook-square" d="M28.125,2.25H3.375A3.375,3.375,0,0,0,0,5.625v24.75A3.375,3.375,0,0,0,3.375,33.75h9.65V23.041H8.6V18h4.43V14.158c0-4.37,2.6-6.784,6.586-6.784a26.836,26.836,0,0,1,3.9.34V12h-2.2a2.521,2.521,0,0,0-2.842,2.723V18h4.836l-.773,5.041H18.475V33.75h9.65A3.375,3.375,0,0,0,31.5,30.375V5.625A3.375,3.375,0,0,0,28.125,2.25Z" transform="translate(0 -2.25)" fill="#fff"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="31.518" height="31.511" viewBox="0 0 31.518 31.511">
+                <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M15.757,9.914a8.079,8.079,0,1,0,8.079,8.079A8.066,8.066,0,0,0,15.757,9.914Zm0,13.331a5.252,5.252,0,1,1,5.252-5.252,5.262,5.262,0,0,1-5.252,5.252ZM26.051,9.584A1.884,1.884,0,1,1,24.166,7.7,1.88,1.88,0,0,1,26.051,9.584ZM31.4,11.5a9.325,9.325,0,0,0-2.545-6.6,9.387,9.387,0,0,0-6.6-2.545c-2.6-.148-10.4-.148-13,0a9.373,9.373,0,0,0-6.6,2.538,9.356,9.356,0,0,0-2.545,6.6c-.148,2.6-.148,10.4,0,13a9.325,9.325,0,0,0,2.545,6.6,9.4,9.4,0,0,0,6.6,2.545c2.6.148,10.4.148,13,0a9.325,9.325,0,0,0,6.6-2.545,9.387,9.387,0,0,0,2.545-6.6c.148-2.6.148-10.392,0-12.994ZM28.041,27.281a5.318,5.318,0,0,1-3,3c-2.074.823-7,.633-9.288.633s-7.221.183-9.288-.633a5.318,5.318,0,0,1-3-3c-.823-2.074-.633-7-.633-9.288s-.183-7.221.633-9.288a5.318,5.318,0,0,1,3-3c2.074-.823,7-.633,9.288-.633s7.221-.183,9.288.633a5.318,5.318,0,0,1,3,3c.823,2.074.633,7,.633,9.288S28.863,25.214,28.041,27.281Z" transform="translate(0.005 -2.238)" fill="#fff"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.5" viewBox="0 0 31.5 31.5">
+                <path id="Icon_awesome-twitter-square" data-name="Icon awesome-twitter-square" d="M28.125,2.25H3.375A3.376,3.376,0,0,0,0,5.625v24.75A3.376,3.376,0,0,0,3.375,33.75h24.75A3.376,3.376,0,0,0,31.5,30.375V5.625A3.376,3.376,0,0,0,28.125,2.25ZM24.687,13.416c.014.2.014.4.014.6a13.031,13.031,0,0,1-13.12,13.12A13.06,13.06,0,0,1,4.5,25.066a9.715,9.715,0,0,0,1.111.056,9.246,9.246,0,0,0,5.723-1.969,4.618,4.618,0,0,1-4.31-3.2,4.97,4.97,0,0,0,2.081-.084,4.612,4.612,0,0,1-3.691-4.528v-.056A4.608,4.608,0,0,0,7.5,15.87,4.6,4.6,0,0,1,5.442,12.03,4.554,4.554,0,0,1,6.068,9.7a13.094,13.094,0,0,0,9.506,4.823,4.621,4.621,0,0,1,7.868-4.212A9.036,9.036,0,0,0,26.367,9.2a4.6,4.6,0,0,1-2.025,2.538A9.177,9.177,0,0,0,27,11.025,9.707,9.707,0,0,1,24.687,13.416Z" transform="translate(0 -2.25)" fill="#fff"/>
+                </svg>                                 
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section1">
+            <div class="section1__left">
+                <h2 class="section1__left__h2">
+                    Une salade sur mesure
+                </h2>
+                <p class="section1__left__p">
+                    MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
+                    <br><br>
+                    Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.
+                    <br><br>
+                    Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ? 
+                </p>
+                <button class="primary-button">
+                    En savoir +
+                </button>
+            </div>
+            <div class="section1__right">
+                <img src="img/salade-detoure.png" alt="magnifique salade détourée">
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="section2__wrapper">
+                <h2 class="section2__h2">
+                    Préparé sur place et avec amour
+                </h2>
+                <p>
+                    Chez MONGOO, <span class="underline">tous les ingrédients</span> et <span class="underline">tous les desserts</span> sont préparés sur place.
+                    <br><br>
+                    Nous mettons un point d'honneur à ce que tous les matins, nos équipes de super-préparateurs <span class="bold">tranchent, épluchent, assaisonnent, mélangent, émincent, saupoudrent</span> et préparent tout ce qu'il y a sur le bar afin de vous proposer les meilleures combinaisons de salades possible.
+                    <br><br>
+                    Alors faites votre choix !
+                </p>
+                <button class="secondary-button">
+                    En savoir +
+                </button>
+            </div>
+        </section>
+
+        <section class="section3">
+            <div class="section3__header">
+                <h2 class="section3__header__h2">
+                    Vous avez dit menu?
+                </h2>
+                <p class="section3__header__p">
+                    Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
+                    Mais attention, pas n'importe quelle boisson et n'importe quel dessert...
+                    <br><br>
+                    Découvrez notre large sélection de boissons et desserts pour accompagner votre repas
+                </p>
+            </div>
+            <div class="section3__content">
+                <div class="section3__content__left">
+                    <div class="section3__content__left__card">
+                        <div class="section3__content__left__card__text">
+                            <h3>Salade j'aime</h3>
+                            <h3>7,70€</h3>
+                        </div>
+                        <p>1 base · 4 ingrédients verts · Sauce
+                            <br>
+                            Petit plus et pain offert 
+                        </p>
+                    </div>
+                    <div class="section3__content__left__card">
+                        <div class="section3__content__left__card__text">
+                            <h3>Salade j'aime</h3>
+                            <h3>7,70€</h3>
+                        </div>
+                        <p>1 base · 4 ingrédients verts · Sauce
+                            <br>
+                            Petit plus et pain offert 
+                        </p>
+                    </div>
+                    <div class="section3__content__left__card">
+                        <div class="section3__content__left__card__text">
+                            <h3>Salade j'aime</h3>
+                            <h3>7,70€</h3>
+                        </div>
+                        <p>1 base · 4 ingrédients verts · Sauce
+                            <br>
+                            Petit plus et pain offert 
+                        </p>
+                    </div>
+                    <div class="section3__content__left__card-wrapper">
+                        <p>La plus vendue!</p>
+                        <div class="section3__content__left__card section3__content__left__card-active">
+                            <div class="section3__content__left__card__text">
+                                <h3>Salade j'aime</h3>
+                                <h3>7,70€</h3>
+                            </div>
+                            <p>1 base · 4 ingrédients verts · Sauce
+                                <br>
+                                Petit plus et pain offert 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section3__content__left__card">
+                        <div class="section3__content__left__card__text">
+                            <h3>Salade j'aime</h3>
+                            <h3>7,70€</h3>
+                        </div>
+                        <p>1 base · 4 ingrédients verts · Sauce
+                            <br>
+                            Petit plus et pain offert 
+                        </p>
+                    </div>
+                </div>
+                <div class="section3__content__right">
+                    <div class="section3__content__right__title">
+                        <h2 class="incline-text">Force verte?</h2>
+                        <h2 class="incline-text">Force bleue?</h2>
+                    </div>
+                    <p>
+                        Ne perdez pas une seconde, faites votre choix
+                        et venez chercher votre salade dans 20min !
+                    </p>
+                    <button class="primary-button">
+                          Passer commande
+                    </button>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section4">
+            <div class="section4__content">
+                <div class="section4__content__left">
+                    <h2>Chez les verts</h2>
+                    <div class="section4__content__grid">
+                        <div class="section4__content__wrapper">
+                            <p>Croûtons</p>
+                            <p>Œuf (1)</p>
+                            <p>Betteraves</p>
+                            <p>Carottes</p>
+                            <p>Choux rouges</p>
+                            <p>Concombre</p>
+                            <p>Lentilles</p>
+                            <p>Maïs</p>
+                            <p>Oignons rouges</p>
+                        </div>
+                        <div class="section4__content__wrapper">
+                            <p>Radis</p>
+                            <p>Pommes</p>
+                            <p>Oignons frits</p>
+                            <p>Emmental</p>
+                            <p>Mozzarella</p>
+                            <p>Mimolette</p>
+                            <p>Surimi</p>
+                            <p>Saucisses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section4__content__right">
+                    <h2>Chez les bleus</h2>
+                    <div class="section4__content__grid">
+                        <div class="section4__content__wrapper">
+                            <p>Aubergines</p>
+                            <p>Avocat</p>
+                            <p>Cantal</p>
+                            <p>Cœur d'artichaut</p>
+                            <p>Grana Panado</p>
+                            <p>Jambon cru</p>
+                            <p>Crevettes</p>
+                        </div>
+                        <div class="section4__content__wrapper">
+                            <p>Feta</p>
+                            <p>Melon</p>
+                            <p>Œuf poché</p>
+                            <p>Poivrons</p>
+                            <p>Thon</p>
+                            <p>Tomates cerises</p>
+                            <p>Tomates séchées</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="section5__content">
+                <div class="section5__content__left">
+                    <img src="img/anh-nguyen-_Uqj5BQb-mw-unsplash.png" alt="magnifique salade">
+                    <div class="section5__content__croix section5__content__croix-vertical"></div>
+                    <div class="section5__content__croix"></div>
+                </div>
+                <div class="section5__content__right">
+                    <h2>Envie de partager?</h2>
+                    <p class="section5__content__p">
+                        Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
+                        <br>
+                        N'hésitez pas à postuler !
+                    </p>
+                    <div class="section5__content__form">
+                        <div class="section5__content__form__2cols">
+                            <div class="section5__content__form__wrapper">
+                                <p class="section5__content__form__title">
+                                    Nom
+                                </p>
+                                <div class="section5__content__form__input"></div>
+                            </div>
+                            <div class="section5__content__form__wrapper">
+                                <p class="section5__content__form__title">
+                                    Prénom
+                                </p>
+                                <div class="section5__content__form__input"></div>
+                            </div>
+                        </div>
+                        <div class="section5__content__form__wrapper">
+                            <p class="section5__content__form__title">
+                                Email
+                            </p>
+                            <div class="section5__content__form__input"></div>
+                        </div>
+                        <div class="section5__content__form__wrapper">
+                            <p class="section5__content__form__title">
+                                Votre motivation en quelques mots
+                            </p>
+                            <div class="section5__content__form__textarea"></div>
+                        </div>
+                    </div>
+                    <div class="section5__content__button">
+                        <button class="primary-button">
+                            Postuler
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="img/mangoo.png" alt="magnifique logo">
+        <div class="footer__wrapper">
+            <div class="footer__flex">
+                <h3>Informations</h3>
+                <p>Passer commande</p>
+                <p>Nos menus</p>
+                <p>Restaurants</p>
+            </div>
+            <div class="footer__flex">
+                <h3>Informations</h3>
+                <p>Passer commande</p>
+                <p>Nos menus</p>
+                <p>Restaurants</p>
+            </div>
+            <div class="footer__flex">
+                <h3>Informations</h3>
+                <p>Passer commande</p>
+                <p>Nos menus</p>
+                <p>Restaurants</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

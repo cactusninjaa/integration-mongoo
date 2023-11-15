@@ -1,0 +1,21 @@
+.footer{
+    @include flex-container(row, center, center);
+    @include center-text;
+    @include padding(68px 0);
+    p, h3{@include text-color($color-white);}
+    gap: 84px;
+
+    h3{
+        font-size: 27px;
+        padding-bottom: 27px;
+    }
+    p{margin-bottom: 0;}
+
+    width: 100%;
+    background-color: $color-primary;
+
+    &__wrapper{
+        @include grid-container(3, 120px);
+    }
+
+}
