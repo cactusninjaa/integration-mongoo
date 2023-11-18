@@ -1,5 +1,10 @@
 .footer{
     @include flex-container(row, center, center);
+    @include respond-to(1080px){
+        @include flex-container(column, center, center);
+        gap: 22px;
+        @include padding(22px 0);
+    }
     @include center-text;
     @include padding(68px 0);
     p, h3{@include text-color($color-white);}
@@ -16,6 +21,12 @@
 
     &__wrapper{
         @include grid-container(3, 120px);
+        @include respond-to(1280px){
+            @include grid-container(3, 60px);
+        }
+        @include respond-to(720px){
+            @include grid-container(1, 22px);
+        }
     }
 
 }

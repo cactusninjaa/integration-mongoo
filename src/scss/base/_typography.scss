@@ -17,7 +17,6 @@
   font-family: $font-family-sans-serif;
   font-weight: $font-weight-extra-bold;
   margin-bottom: $margin-bottom-h1;
-
 }
 
 // Titre de deuxième niveau
@@ -86,18 +85,30 @@
 
 h1 {
   @extend %heading1;
+  @include respond-to(700px){
+    font-size: 5rem;
+  }
 }
 
 h2 {
   @extend %heading2;
+  @include respond-to(700px){
+    font-size: 2.5rem;
+  }
 }
 
 h3 {
   @extend %heading3;
+  @include respond-to(700px){
+    font-size: 1.5rem;
+  }
 }
 
-p {
+p, label {
   @extend %body-text-normal;
+  @include respond-to(700px){
+    font-size: 1rem;
+  }
 }
 
 a {
@@ -114,4 +125,5 @@ a {
 
 .incline-text{
   rotate: -9deg;
+  font-style: italic;
 }

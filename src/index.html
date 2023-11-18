@@ -10,13 +10,13 @@
 <body class="body">
     <header class="header">
         <div class="header_pathrou"></div>
-        <img class="header__img" src="img/Header back.png" alt="magnifique header background">
+        <div class="header__img"></div>
         <nav class="header__nav">
             <a href="" class="header__nav__logo">
                 <img src="img/Logo.png" alt="notre magnifique logo">
             </a>
             <ul class="header__nav__ul">
-                <li class="header__nav__li header__nav__li-active">
+                <li class="header__nav__li">
                     <a href="#">Acceuil</a>
                 </li>
                 <li class="header__nav__li">
@@ -30,6 +30,17 @@
                 </li>
                 <li class="header__nav__li header__nav__li-button">
                     <a  href="#">Commander</a>
+                </li>
+            </ul>
+            <ul class="header__nav__ul-hamburger">
+                <li class="header__nav__li-hamburger">
+                    <div></div>
+                </li>
+                <li class="header__nav__li-hamburger">
+                    <div></div>
+                </li>
+                <li class="header__nav__li-hamburger">
+                    <div></div>
                 </li>
             </ul>
         </nav>
@@ -52,11 +63,11 @@
 
     <main class="main">
         <section class="section1">
-            <div class="section1__left">
-                <h2 class="section1__left__h2">
+            <div class="section1__wrapper">
+                <h2 class="section1__h2">
                     Une salade sur mesure
                 </h2>
-                <p class="section1__left__p">
+                <p class="section1__p">
                     MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
                     <br><br>
                     Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.
@@ -67,9 +78,7 @@
                     En savoir +
                 </button>
             </div>
-            <div class="section1__right">
-                <img src="img/salade-detoure.png" alt="magnifique salade détourée">
-            </div>
+            <img src="img/salade-detoure.png" alt="magnifique salade détourée">
         </section>
 
         <section class="section2">
@@ -246,37 +255,36 @@
                     <div class="section5__content__form">
                         <div class="section5__content__form__2cols">
                             <div class="section5__content__form__wrapper">
-                                <p class="section5__content__form__title">
+                                <label class="section5__content__form__title">
                                     Nom
-                                </p>
-                                <div class="section5__content__form__input"></div>
+                                </label>
+                                <input class="section5__content__form__input"></input>
                             </div>
                             <div class="section5__content__form__wrapper">
-                                <p class="section5__content__form__title">
+                                <label class="section5__content__form__title">
                                     Prénom
-                                </p>
-                                <div class="section5__content__form__input"></div>
+                            </label>
+                                <input class="section5__content__form__input"></input>
                             </div>
                         </div>
                         <div class="section5__content__form__wrapper">
-                            <p class="section5__content__form__title">
+                            <label class="section5__content__form__title">
                                 Email
-                            </p>
-                            <div class="section5__content__form__input"></div>
+                            </label>
+                            <input class="section5__content__form__input"></input>
                         </div>
                         <div class="section5__content__form__wrapper">
-                            <p class="section5__content__form__title">
+                            <label class="section5__content__form__title">
                                 Votre motivation en quelques mots
-                            </p>
-                            <div class="section5__content__form__textarea"></div>
+                            </label>
+                            <textarea class="section5__content__form__textarea"></textarea>
                         </div>
                     </div>
                     <div class="section5__content__button">
                         <button class="primary-button">
                             Postuler
                         </button>
-                    </div>
-                    
+                    </div>  
                 </div>
             </div>
         </section>

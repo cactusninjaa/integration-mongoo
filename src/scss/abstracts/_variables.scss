@@ -1,6 +1,6 @@
 // Variables de typographie
     // Base values
-    $base-font-size: 18px;
+    $base-font-size: 1.125;
     $base-line-height: 1.5;
 
     // Font families
@@ -14,9 +14,9 @@
     $font-weight-extra-bold: 800;
 
     // Calculez les tailles de police basées sur le $base-font-size
-    $font-size-h1: 120px;
-    $font-size-h2: 52px;
-    $font-size-h3: 24px;
+    $font-size-h1: 7.5rem;
+    $font-size-h2: 3.25rem;
+    $font-size-h3: 1.5rem;
     $font-size-h4: $base-font-size * 1.1;
     $font-size-h5: $base-font-size;
     $font-size-body: $base-font-size;
